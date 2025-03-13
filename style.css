@@ -28,7 +28,8 @@ body {
 }
 
 a:hover {
-    color: var(--dark-blue-color); /* Optional: Change color on hover */
+    color: var(--dark-blue-color);
+   
 }
 button{
     cursor: pointer;
@@ -42,3 +43,133 @@ button:hover{
     color: var(--dark-blue-color);
     background-color: var(--white-color);
 }
+.menu_container{
+    height: 9.8rem;
+    background-color: var(--cilety-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 2rem 2.4rem 2rem;
+}
+
+.menu_container .logo_container{
+    height: 2.4rem;
+    width: 15.8rem;
+}
+
+.menu_container .links_container{
+    height: 1.9rem;
+    display: flex;
+    gap:4rem;
+    list-style-type: none;
+}
+.menu_container .links_container li{
+    font-size: 1.6rem;
+    line-height: 100%;
+    font-weight: 700;
+}
+.menu_container .buttons_container{
+    height: 5rem;
+     
+    display: flex;
+    gap: 1rem;
+}
+.menu_container .buttons_container button{
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+}
+main .hero_section{
+    height: 70rem;
+    background-color: var(--cilety-color);
+    padding: 10rem 12rem 10rem 12rem;
+    display: flex;
+   justify-content: center;
+   
+}
+main .hero_section .header_text_container{
+    height: 34rem;
+    display: flex;
+    
+}
+main .hero_section .header_text_container img:nth-child(1){
+    width: 19.7rem;
+    height: 34rem;
+}
+main .hero_section .header_text_container img:nth-child(3){
+    width: 21.2rem;
+    height: 34rem;
+}
+main .hero_section .header_text_container .title_container{
+    height: 27.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+main .hero_section .header_text_container .title_container .text_container{
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+main .hero_section .header_text_container .title_container .text_container .title{
+    height: 10.6rem;
+    font-weight: 800;
+    font-size: 6.4rem;
+    line-height: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+    text-align: center;
+    
+}
+main .hero_section .header_text_container .title_container .text_container .sub_title{
+    height: 4.8rem;
+    opacity: 70%;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ 
+}
+main .hero_section .header_text_container .title_container .btns_container{
+    display: flex;
+    gap:3.2rem;
+    height: 6.7rem;
+    justify-content: center;
+}
+main .hero_section .header_text_container .title_container .btns_container button:nth-child(1){
+   border-radius: 5.5rem;
+   height: 6rem;
+   padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+   
+}
+main .hero_section .header_text_container .title_container .btns_container button:nth-child(2){
+    border-radius: 5.5rem;
+    height: 6rem;
+    padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+    display: flex;
+    gap: 1.6rem;
+    box-shadow: 0px 23px 47px 0px #043A533D;
+    background-color: unset;
+    align-items: center;
+
+
+    
+ }
+ main .hero_section .header_text_container .title_container .btns_container button:nth-child(2):hover{
+    background-color: unset;
+ }
+ main .hero_section .header_text_container .title_container .btns_container button:nth-child(2) img{
+    height: 3.5rem;
+    width: 3.5rem;
+ }
+ main .hero_section .header_text_container .title_container .btns_container button:nth-child(2) span{
+    height: 2.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    text-align: right;
+    color: var(--dark-blue-color);
+    
+ }
