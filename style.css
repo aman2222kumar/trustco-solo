@@ -14,7 +14,31 @@
   --secondary-color: #2ecc71; 
   --accent-color: #e74c3c; 
 }
-
+html {
+    font-size: 10px;
+}
 body {
     font-family: var(--font-family);
   }
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--dark-text-cilety-color); /* Optional: Set your preferred link color */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    color: var(--dark-blue-color); /* Optional: Change color on hover */
+}
+button{
+    cursor: pointer;
+    border: none;
+    color: var(--white-color);
+    background-color: var(--dark-blue-color);
+    border-radius: 4.2rem;
+    transition:  color 0.3s ease; 
+}
+button:hover{
+    color: var(--dark-blue-color);
+    background-color: var(--white-color);
+}
