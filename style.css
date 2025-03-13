@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family: 'Lato', sans-serif;
+ --cilety-color:#F2F5F6;
+ --dark-blue-color:#043A53;
+ --white-color:#FFFFFF;
+ --dark-text-cilety-color:#12141D;
+ --light-text-cilety-color:#404040;
+ --primary-color: #3498db;
+  --secondary-color: #2ecc71; 
+  --accent-color: #e74c3c; 
+}
+
+body {
+    font-family: var(--font-family);
+  }
