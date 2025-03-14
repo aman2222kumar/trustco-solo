@@ -51,6 +51,9 @@ button:hover{
     align-items: center;
     padding: 2.4rem 2rem 2.4rem 2rem;
 }
+.menu_container .menu_icon{
+    display: none;
+}
 
 .menu_container .logo_container{
     height: 2.4rem;
@@ -90,11 +93,11 @@ main #hero .header_text_container{
     display: flex;
     
 }
-main #hero .header_text_container img:nth-child(1){
+main #hero .header_text_container .hero_5{
     width: 19.7rem;
     height: 34rem;
 }
-main #hero .header_text_container img:nth-child(3){
+main #hero .header_text_container .hero_second{
     width: 21.2rem;
     height: 34rem;
 }
@@ -160,7 +163,7 @@ main #hero .header_text_container .title_container .btns_container button:nth-ch
  main #hero .header_text_container .title_container .btns_container button:nth-child(2):hover{
     background-color: unset;
  }
- main #hero .header_text_container .title_container .btns_container button:nth-child(2) img{
+ main #hero .header_text_container .title_container .btns_container button:nth-child(2) #play_button{
     height: 3.5rem;
     width: 3.5rem;
  }
@@ -173,3 +176,85 @@ main #hero .header_text_container .title_container .btns_container button:nth-ch
     color: var(--dark-blue-color);
     
  }
+
+ @media screen and (max-width:1350px) {
+    main #hero .header_text_container .title_container .text_container .title {
+        font-size: 3rem !important;
+        gap: 0.5rem;
+    }
+    main #hero .header_text_container .title_container .text_container .sub_title {
+        font-size: 1.5rem !important;
+    }
+    main #hero .header_text_container .title_container .text_container {
+        gap: 0.1rem;
+    }
+   
+    
+ }
+ @media screen and (max-width:995px) {
+    main #hero{
+        height: 84.8rem;
+    }
+    main #hero .header_text_container {
+        height: 100%;
+        flex-direction: column;
+        position: relative;
+    }
+    main #hero .header_text_container .hero_5{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    main #hero .header_text_container .title_container {
+        position: relative;
+
+    }
+    main #hero .header_text_container .hero_second{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    }
+   
+    
+ }
+
+ @media screen and (max-width:755px) {
+    main #hero .header_text_container .title_container .text_container .sub_title {
+        font-size: 1rem !important;
+    }
+    main #hero .header_text_container .hero_second{
+        width: 17.4rem !important;
+        height: 27.9rem !important;
+        object-fit: cover;
+        }
+        main #hero .header_text_container .hero_5{
+            width: 16.2rem !important;
+            height: 27.9rem !important;
+            object-fit: cover;
+        }
+        .menu_container .menu_icon{
+            display: block;
+            height: 2.4rem;
+            width: 2.4rem;
+        }
+        .menu_container .links_container{
+            display: none;
+        }
+        .menu_container .buttons_container{
+            display: none;
+        }
+        .menu_container{
+            background-color: var(--white-color);
+        }
+        main #hero .header_text_container .title_container .btns_container {
+            
+            flex-direction: column;
+    
+            align-items: center;
+        }
+        main #hero .header_text_container .title_container{
+            width: max-content;
+        }
+ }
+
+ 
