@@ -177,7 +177,61 @@ main #hero .header_text_container .title_container .btns_container button:nth-ch
     
  }
 
+ #trust_brands{
+    height: 13.2rem;
+    padding: 5rem 15rem 5rem 15rem;
+    display: flex;
+    gap: 6.4rem;
+    align-items: center;
+ }
+ #trust_brands p{
+    font-weight: 500;
+    color: #000000;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+ }
+ #trust_brands .trust_brands_icon_container{
+    display: flex;
+    gap: 6.4rem;
+    align-items: center;
+ }
+ #trust_brands .trust_brands_icon_container div:nth-of-type(1),
+ #trust_brands .trust_brands_icon_container div:nth-of-type(2){
+    display: flex;
+    gap: 6.4rem;
+    align-items: center;
+ }
+ #trust_brands .trust_brands_icon_container div:nth-of-type(1) img:nth-of-type(1){
+    width: 9.7rem;
+height: 3.2rem;
+
+ }
+ #trust_brands .trust_brands_icon_container div:nth-of-type(1) img:nth-of-type(2){
+    width: 13.5rem;
+height: 1.7rem;
+
+ }
+ #trust_brands .trust_brands_icon_container div:nth-of-type(1) img:nth-of-type(3){
+    width: 9.5rem;
+height: 2rem;
+
+ }
+ #trust_brands .trust_brands_icon_container div:nth-of-type(2) img:nth-of-type(1){
+    width:12.9rem;
+height: 3rem;
+
+ }
+ #trust_brands .trust_brands_icon_container div:nth-of-type(2) img:nth-of-type(2){
+    width: 9.5rem;
+height: 2.9rem;
+
+ }
+
+
+
+ /* responsive design */
  @media screen and (max-width:1350px) {
+    
     main #hero .header_text_container .title_container .text_container .title {
         font-size: 3rem !important;
         gap: 0.5rem;
@@ -255,6 +309,8 @@ main #hero .header_text_container .title_container .btns_container button:nth-ch
         main #hero .header_text_container .title_container{
             width: max-content;
         }
+
+   
  }
 
  
