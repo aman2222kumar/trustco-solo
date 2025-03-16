@@ -16,6 +16,7 @@
 
 </div>
 <ul class="links_container">
+ <button onclick="closeMenu()" class="close_btn">close</button>
  <li><a href="#features">Features</a></li>
  <li><a href="#solutions">Solutions</a></li>
  <li><a href="#Company">Company</a></li>
@@ -30,7 +31,7 @@
         Sign up
     </button>
 </div>
-<img src="assets/Menu.png" alt="menu" class="menu_icon"/>
+<img src="assets/Menu.png" alt="menu" class="menu_icon" onclick="showMenu()"/>
 </header>
 <!--this is main-->
 <main>
@@ -77,4 +78,71 @@
 </footer>
     
 </body>
+<script>
+ let links=document.querySelector(".links_container");
+ let button_links=document.querySelector(".buttons_container");
+ let isCloseButton=false;
+ 
+ 
+
+ function showMenu(){
+    
+    links.style.visibility="visible";
+    links.style.width="20rem";
+    button_links.style.visibility="visible";
+    button_links.style.width="max-content";
+    
+   
+
+
+ }
+ function closeMenu(){
+    links.style.visibility="hidden";
+    links.style.width="0rem";
+    button_links.style.visibility="hidden";
+    button_links.style.width="0rem";
+    isCloseButton=true;
+   
+
+ }
+
+ window.addEventListener("resize",()=>{
+    let innerWidth=Math.floor(window.innerWidth);
+    if(innerWidth<=995 && isCloseButton===false && links.style.visibility==="visible"){
+        links.style.visibility="hidden";
+        links.style.zIndex="1000";
+    links.style.width="0rem";
+    
+    button_links.style.visibility="hidden";
+    button_links.style.width="0rem";
+    button_links.style.zIndex="1000";
+    
+    
+   
+    }
+    if(innerWidth>995 && isCloseButton===false){
+        links.style.visibility="visible";
+    links.style.width="auto";
+    button_links.style.visibility="visible";
+    button_links.style.width="auto";
+    
+   
+    }
+    if(innerWidth>995 && isCloseButton===true){
+        links.style.visibility="visible";
+    links.style.width="auto";
+    button_links.style.visibility="visible";
+    button_links.style.width="auto";
+    isCloseButton=false;
+   
+    
+    }
+    
+   
+   
+    
+
+ })
+
+</script>
 </html>
