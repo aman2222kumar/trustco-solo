@@ -372,9 +372,113 @@ justify-content: space-between;
     line-height: 2.8rem;
     color: #404040;
  }
+#building_bridges{
+    height: 70rem;
+    padding-right: 15rem;
+    display: flex;
+    gap: 7.7rem;
+    background-color: var(--white-color);
+}
+#building_bridges .bridges_left_data_container{
+    position: relative;
+    
+}
+#building_bridges .bridges_left_data_container .bridge_image{
+    width: 62.9rem;
+    border-top-right-radius: 1.6rem;
+    border-bottom-right-radius: 1.6rem;
+}
 
+#building_bridges .bridges_left_data_container .award_detail_container{
+    width: 22.9rem;
+    height: 22.9rem;
+    position: absolute;
+    bottom: 4rem;
+    right: -6rem;
+    border-radius: 100rem;
+    border: 0.4rem;
+    padding: 2.6rem 5.6rem 2.6rem 5.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+    box-shadow: 1rem 1.3rem 3rem 0rem #043A533D;
 
+}
+#building_bridges .bridges_left_data_container .award_detail_container .dimond_icon{
+    width: 5.6rem;
+    height: 5.6rem;
 
+    
+}
+#building_bridges .bridges_left_data_container .award_detail_container .award_text_container{
+    display: flex;
+    flex-direction: column;
+}
+#building_bridges .bridges_left_data_container .award_detail_container .award_text_container p:first-child{
+   color: var(--white-color);
+   font-size: 4.8rem;
+   line-height: 6rem;
+   font-weight: 700;
+   letter-spacing: -2%;
+   text-align: center;
+}
+#building_bridges .bridges_left_data_container .award_detail_container .award_text_container p:last-child{
+    color: var(--white-color);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+ }
+ #building_bridges .bridges_right_data_container{
+    display: flex;
+    flex-direction: column;
+    gap:3.2rem;
+    align-items: flex-start;
+    justify-content: center;
+
+ }
+ #building_bridges .bridges_right_data_container .bridge_text{
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 7.2rem;
+    letter-spacing: -2%;
+ }
+ #building_bridges .bridges_right_data_container .bridge_text span:first-child{
+    color: var(--dark-text-cilety-color);
+ }
+ #building_bridges .bridges_right_data_container .bridge_text span:last-child{
+    color: #92A7B0;
+ }
+ #building_bridges .bridges_right_data_container .bridge_sub_text{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--dark-text-cilety-color);
+ }
+ #building_bridges .bridges_right_data_container .bridge_action{
+    border-radius: 5.5rem;
+    padding: 1.6rem 1.6rem 1.6rem 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2.5rem;
+ }
+ #building_bridges .bridges_right_data_container .bridge_action span{
+    display: flex;
+    gap: 0.9rem;
+ }
+ #building_bridges .bridges_right_data_container .bridge_action img{
+    width:3.2rem;
+    height: 3.2rem;
+    border-radius: 10rem;
+    display: flex;
+    gap: 1rem;
+    padding: 0.4rem;
+    background-color: #F2F5F629;
+ }
  /* responsive design */
  @media screen and (max-width:1350px) {
     
