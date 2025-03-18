@@ -571,6 +571,9 @@ justify-content: space-between;
     gap: 1.6rem;
     flex-direction: column;
  }
+ #benefits .benefits_title_container {
+    align-self: baseline !important;
+ }
  #building_bridges{
     height: max-content !important;
  }
@@ -670,6 +673,8 @@ justify-content: space-between;
         width: 3.5rem !important;
         height: 3.5rem !important;
      }
+
+    
     
      #building_bridges {
         flex-direction: column-reverse !important;
@@ -702,6 +707,11 @@ justify-content: space-between;
      #building_bridges .bridges_right_data_container {
         align-items: center !important; 
     gap: 1.6rem !important;
+     }
+
+     #numbers {
+        justify-content: center;
+    padding: 5rem 2rem !important;
      }
  }
 
@@ -786,8 +796,10 @@ justify-content: space-between;
         #benefits .benefits_title_container {
             align-items: center !important;
             gap: 1.6rem !important;
+            align-self:center !important;
            
         }
+        
         #benefits .benefits_title_container .benefit_badge {
             padding: 0.4rem 1.6rem 0.4rem 1.6rem !important;
         }
@@ -821,6 +833,23 @@ justify-content: space-between;
         #building_bridges .bridges_left_data_container .award_detail_container {
             bottom: 2rem !important;
             right: -2rem !important;
+        }
+        #numbers{
+            gap: 3.2rem !important;
+        }
+
+        #numbers .number_container {
+            width: max-content !important;
+             gap: 0.8rem !important;
+        }
+        #numbers .number_container .number_detail {
+            font-size: 3.6rem !important;
+            line-height: 4.4rem !important;
+        }
+
+        #numbers .number_container .number_description {
+            font-size: 1.6rem !important;
+            line-height: 2.4rem !important;
         }
    
  }
