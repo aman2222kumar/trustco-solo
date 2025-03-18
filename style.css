@@ -580,7 +580,14 @@ justify-content: space-between;
     gap: 6.4rem;
     align-items: baseline;
  }
- #meet_founder .founder_description_container .founder_intro_text{
+ #meet_founder .founder_description_container .founder_desc_data_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    align-items: baseline;
+ }
+ #meet_founder .founder_description_container .founder_desc_data_container .founder_intro_text{
     font-weight: 700;
     font-size: 6rem;
     line-height: 7.2rem;
@@ -588,20 +595,20 @@ justify-content: space-between;
     color: var(--dark-text-cilety-color);
     
  }
- #meet_founder .founder_description_container .founder_words{
+ #meet_founder .founder_description_container .founder_desc_data_container .founder_words{
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 3.2rem;
     letter-spacing: -2%;
     color: var(--dark-text-cilety-color);
  }
- #meet_founder .founder_description_container .founder_information .founder_name{
+ #meet_founder .founder_description_container .founder_desc_data_container .founder_information .founder_name{
     font-weight: 700;
     font-size: 2rem;
     line-height: 3rem;
     color: var(--dark-text-cilety-color);
  }
- #meet_founder .founder_description_container .founder_information .company_name{
+ #meet_founder .founder_description_container .founder_desc_data_container .founder_information .company_name{
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2.4rem;
