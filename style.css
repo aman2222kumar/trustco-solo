@@ -531,7 +531,21 @@ justify-content: space-between;
     gap: 1.6rem;
     flex-direction: column;
  }
+ #building_bridges{
+    height: max-content !important;
  }
+
+ #building_bridges .bridges_right_data_container .bridge_text {
+
+    font-size: 4rem !important;
+    line-height: 4rem !important;
+ }
+ #building_bridges .bridges_right_data_container .bridge_sub_text {
+    
+    font-size: 1.6rem !important;
+    line-height: 2.5rem !important;
+ }
+}
 
 
  
@@ -617,6 +631,38 @@ justify-content: space-between;
         height: 3.5rem !important;
      }
     
+     #building_bridges {
+        flex-direction: column-reverse !important;
+    align-items: center !important;
+    padding: 5rem 2rem 5rem 2rem !important;
+    gap: 3.2rem !important;
+     }
+     #building_bridges .bridges_left_data_container .bridge_image {
+        width: 40rem !important;
+    object-fit: cover;
+     }
+     #building_bridges .bridges_left_data_container .award_detail_container {
+        width: 14.9rem !important;
+    height: 14.9rem !important;
+    gap: 1rem !important;
+     }
+     #building_bridges .bridges_left_data_container .award_detail_container .dimond_icon {
+        width: 3.2rem !important;
+    height: 3.2rem !important;
+     }
+     #building_bridges .bridges_left_data_container .award_detail_container .award_text_container p:first-child {
+        font-size: 3.6rem !important;
+        line-height: 4.4rem !important;
+     }
+     #building_bridges .bridges_left_data_container .award_detail_container .award_text_container p:last-child {
+        font-size: 1.4rem !important;
+        line-height: 2rem !important;
+        width: max-content !important;
+     }
+     #building_bridges .bridges_right_data_container {
+        align-items: center !important; 
+    gap: 1.6rem !important;
+     }
  }
 
 
@@ -725,7 +771,28 @@ justify-content: space-between;
             font-size: 1.4rem !important;
             line-height: 2rem !important;
         }
+
+        #building_bridges .bridges_left_data_container {
+            align-self: center !important;
+        }
+        #building_bridges .bridges_left_data_container .bridge_image {
+            width: 32.1rem !important;
+        }
+        #building_bridges .bridges_left_data_container .award_detail_container {
+            bottom: 2rem !important;
+            right: -2rem !important;
+        }
    
+ }
+
+ @media screen and (max-width:350px) {
+    #building_bridges .bridges_left_data_container {
+        align-self: flex-start !important;
+    }
+    #building_bridges .bridges_left_data_container .bridge_image {
+        width: 26.1rem !important;
+    }
+
  }
 
 
