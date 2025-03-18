@@ -514,7 +514,116 @@ justify-content: space-between;
     letter-spacing: -2%;
  }
 
+ #meet_founder{
+    padding: 10rem 0rem 10rem 15rem;
+    display: flex;
+    gap: 6.4rem;
+    height: 74.7rem;
+    
+ }
+ #meet_founder .founder_image_container{
+    position: relative;
+    width: 71.1rem;
+ }
+ #meet_founder .founder_image_container .decoration_icon{
+    height: 28.1rem;
+    border-radius: 100rem;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    background-color: var(--dark-blue-color);
+    box-shadow: 1rem 1.3rem 3rem 0rem #043A533D;
+    position:absolute;
+    bottom: 11rem;
+    right: 12rem;
 
+
+
+ }
+ #meet_founder .founder_image_container .decoration_icon .crown_img{
+    width: 7.2rem;
+    height: 7.2rem;
+    border-radius: 10rem;
+    display: flex;
+    gap: 1rem;
+    padding: 1.6rem;
+    background-color: #F2F5F629;
+ }
+ #meet_founder .founder_image_container .founder_image{
+    width: 62.6rem;
+    height: 57.4rem;
+    border-radius: 1.6rem;
+    
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 50;
+
+ }
+ #meet_founder .founder_image_container .girl_image_icon{
+    width: 20.2rem;
+    height: 20.2rem;
+    border-radius: 100rem;
+    
+    z-index: 100;
+    position:absolute;
+    bottom: -2rem;
+    left: 10rem;
+
+
+ }
+ #meet_founder .founder_description_container{
+    width: 51.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+    align-items: baseline;
+ }
+ #meet_founder .founder_description_container .founder_desc_data_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    align-items: baseline;
+ }
+ #meet_founder .founder_description_container .founder_desc_data_container .founder_intro_text{
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 7.2rem;
+    letter-spacing: -2%;
+    color: var(--dark-text-cilety-color);
+    
+ }
+ #meet_founder .founder_description_container .founder_desc_data_container .founder_words{
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    letter-spacing: -2%;
+    color: var(--dark-text-cilety-color);
+ }
+ #meet_founder .founder_description_container .founder_desc_data_container .founder_information .founder_name{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--dark-text-cilety-color);
+ }
+ #meet_founder .founder_description_container .founder_desc_data_container .founder_information .company_name{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0%;
+    color: #404040;
+ }
+ #meet_founder .founder_description_container .founder_action{
+    border-radius: 5.5rem;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem 1.6rem 1.6rem 2.4rem;
+
+ }
 
 
 
