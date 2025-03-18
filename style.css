@@ -525,7 +525,7 @@ justify-content: space-between;
     position: relative;
     width: 71.1rem;
  }
- #meet_founder .founder_image_container .decoration_icon{
+ #meet_founder .founder_image_container .founder_image .decoration_icon{
     height: 28.1rem;
     border-radius: 100rem;
     padding: 1.6rem;
@@ -535,13 +535,14 @@ justify-content: space-between;
     background-color: var(--dark-blue-color);
     box-shadow: 1rem 1.3rem 3rem 0rem #043A533D;
     position:absolute;
-    bottom: 11rem;
-    right: 12rem;
+    bottom: 8rem;
+    right: 5.5rem;
+    z-index: -1;
 
 
 
  }
- #meet_founder .founder_image_container .decoration_icon .crown_img{
+ #meet_founder .founder_image_container .founder_image .decoration_icon .crown_img{
     width: 7.2rem;
     height: 7.2rem;
     border-radius: 10rem;
@@ -555,10 +556,9 @@ justify-content: space-between;
     height: 57.4rem;
     border-radius: 1.6rem;
     
-    position:absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 50;
+    position:relative;
+   
+    background: url(assets/Man\ 2.png);
 
  }
  #meet_founder .founder_image_container .girl_image_icon{
@@ -568,8 +568,8 @@ justify-content: space-between;
     
     z-index: 100;
     position:absolute;
-    bottom: -2rem;
-    left: 10rem;
+    bottom: -8rem;
+    left: 4rem;
 
 
  }
@@ -697,6 +697,49 @@ justify-content: space-between;
     font-size: 1.6rem !important;
     line-height: 2.5rem !important;
  }
+ #meet_founder .founder_image_container {
+    padding: 5rem 2rem 5rem 2rem !important;
+    width: max-content !important;
+
+ }
+ #meet_founder .founder_image_container .founder_image {
+    width: 45rem !important;
+    height: 57rem !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ #meet_founder .founder_image_container .founder_image .decoration_icon {
+    bottom: 23rem !important;
+    right: 8.9rem !important;
+    height: 21.3rem !important;
+    width: 7.2rem !important;
+    gap: 0.8rem !important;
+    padding: 0.8rem !important;
+ }
+ #meet_founder .founder_image_container .founder_image .decoration_icon .crown_img {
+    width: 5.6rem !important;
+    height: 5.6rem !important;
+ }
+ #meet_founder .founder_image_container .girl_image_icon {
+    width: 10rem !important;
+    height: 10rem !important;
+    left: 4rem !important;
+    bottom: 16rem !important;
+ }
+ #meet_founder .founder_description_container {
+    gap: 3.2rem !important;
+ }
+ #meet_founder .founder_description_container {
+    gap: 1.6rem !important;
+ } 
+ #meet_founder .founder_description_container .founder_desc_data_container .founder_intro_text {
+    font-size: 3rem !important;
+    line-height: 3.8rem !important;
+ }
+ #meet_founder .founder_description_container .founder_desc_data_container .founder_words {
+    font-size: 1.6rem !important;
+    line-height: 2.4rem !important;
+ }
 }
 
 
@@ -821,6 +864,15 @@ justify-content: space-between;
      #numbers {
         justify-content: center;
     padding: 5rem 2rem !important;
+     }
+
+
+     #meet_founder {
+        flex-direction: column !important;
+    align-items: center !important;
+    padding: 5rem 2rem 5rem 2rem !important;
+    gap: 3.2rem !important;
+    height: max-content !important;
      }
  }
 
@@ -960,6 +1012,29 @@ justify-content: space-between;
             font-size: 1.6rem !important;
             line-height: 2.4rem !important;
         }
+        #meet_founder .founder_description_container {
+            width: 100% !important;
+            align-items: center !important;
+        }
+        #meet_founder .founder_description_container .founder_desc_data_container {
+            gap: 1.6rem !important;
+    align-items: center !important;
+        }
+        #meet_founder .founder_image_container .founder_image {
+            width: 33.2rem !important;
+        }
+        #meet_founder .founder_image_container .founder_image .decoration_icon {
+            bottom: 30rem !important;
+            right: 6.5rem !important;
+        }
+        #meet_founder .founder_image_container {
+            padding: 0rem !important;
+        }
+        #meet_founder .founder_image_container .girl_image_icon {
+            left: 1rem !important;
+            bottom: 25rem !important;
+        }
+        
    
  }
 
