@@ -653,7 +653,7 @@ color: var(--dark-text-cilety-color);
     border-radius: 5.5rem;
     display: flex;
     gap: 1.6rem;
- align-items: center;
+    align-items: center;
  }
  #testimonials .testimonial_see_all_container .see_all_container .see_all_text{
 font-weight: 700;
@@ -754,6 +754,132 @@ transition: width 0.1s ease;
 
  }
 
+ #blogs{
+   display: flex;
+   flex-direction: column;
+   gap: 6.4rem;
+   padding: 10rem 15rem 10rem 15rem;
+ }
+
+ #blogs .blog_trustco_container{
+   display: flex;
+   justify-content: space-between;
+
+ }
+ #blogs .blog_trustco_container .blog_title{
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 7.2rem;
+  letter-spacing: -2%;
+
+ }
+ #blogs .blog_trustco_container .blog_see_all_container{
+   border-radius: 5.5rem;
+   display: flex;
+   gap: 1.6rem;
+   align-items: center;
+ }
+ #blogs .blog_trustco_container .blog_see_all_container .see_all_text{
+   font-weight: 700;
+   font-size: 1.8rem;
+   line-height: 2.8rem;
+   letter-spacing: 0%;
+ }
+ #blogs .blog_trustco_container .blog_see_all_container .black_arrow{
+   width: 2.4rem;
+   height: 2.4rem;
+ }
+ #blogs .blog_card_container{
+   display: flex;
+   gap: 3.2rem;
+ }
+ #blogs .blog_card_container .blog_card{
+   border-radius: 0.8rem;
+   border: 0.1rem solid var(--cilety-color);
+   display: flex;
+   flex-direction: column;
+   gap: 1.6rem;
+   box-shadow: 0rem 0.1rem 0.2rem 0rem #00000014;
+   background-color: var(--white-color);
+
+ }
+ #blogs .blog_card_container .blog_card .blog_image{
+   width: 35.8rem;
+   height: 25.7rem;
+   border-top-right-radius: 0.8rem;
+   border-top-left-radius: 0.8rem;
+ }
+ #blogs .blog_card_container .blog_card .card_information{
+ padding: 0rem 2.5rem 2.4rem 2.5rem;
+ display: flex;
+ flex-direction: column;
+ align-items: baseline;
+ gap:1.6rem;
+ }
+ #blogs .blog_card_container .blog_card .card_information .date_info{
+   display: flex;
+   gap: 0.5rem;
+
+ }
+ #blogs .blog_card_container .blog_card .card_information .date_info .date{
+  
+font-weight: 700;
+font-size: 1.6rem;
+line-height: 2.4rem;
+letter-spacing: 0%;
+color: #000000;
+
+ }
+ #blogs .blog_card_container .blog_card .card_information .date_info .by_name{
+
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 2.4rem;
+letter-spacing: 0%;
+color: #404040;
+
+ }
+ #blogs .blog_card_container .blog_card .card_information .question_and_answer_info{
+   display: flex;
+   flex-direction: column;
+   gap: 0.8rem;
+ }
+ #blogs .blog_card_container .blog_card .card_information .question_and_answer_info .card_question{
+
+font-weight: 700;
+font-size: 2.4rem;
+line-height: 3.2rem;
+letter-spacing: 0%;
+color: #000000;
+ }
+ #blogs .blog_card_container .blog_card .card_information .question_and_answer_info .card_answer{
+  
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 2.8rem;
+letter-spacing: 0%;
+color: #404040;
+
+ }
+
+ #blogs .blog_card_container .blog_card .card_information .card_read_all_container{
+   display: flex;
+   gap: 1.6rem;
+   border-radius: 5.5rem;
+   align-items: center;
+
+ }
+ #blogs .blog_card_container .blog_card .card_information .card_read_all_container .read_all_text{
+   font-weight: 700;
+   font-size: 1.8rem;
+   line-height: 2.8rem;
+   letter-spacing: 0%;
+ }
+
+ #blogs .blog_card_container .blog_card .card_information .card_read_all_container .black_arrow{
+   width: 2.4rem;
+   height: 2.4rem; 
+ }
 
 
 
