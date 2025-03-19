@@ -874,6 +874,27 @@ transition: width 0.1s ease;
     font-size: 1.6rem !important;
     line-height: 2.4rem !important;
  }
+
+ #testimonials .testimonial_see_all_container .testimonial_title {
+   font-size: 3rem !important;
+   line-height: 3.8rem !important;
+ }
+ #testimonials .testimonial_image_container .card .feedback {
+   font-size: 1.6rem !important;
+    line-height: 2.4rem !important;
+ }
+ #testimonials .testimonial_image_container .card .testimonial_profile .profile_information .profile_name {
+   font-size: 1.4rem !important;
+    line-height: 2rem !important;
+ }
+ #testimonials .testimonial_image_container .card .testimonial_profile .profile_information .profession{
+   font-size: 1.2rem !important;
+   line-height: 1.8rem !important;
+ }
+ #testimonials .testimonial_image_container .card .testimonial_profile .avatar {
+   width: 3.2rem !important;
+   height: 3.2rem !important;
+ }
 }
 
 
@@ -1008,6 +1029,22 @@ transition: width 0.1s ease;
     gap: 3.2rem !important;
     height: max-content !important;
      }
+
+     #testimonials {
+      position: relative;
+      flex-direction: column-reverse !important;
+      height: max-content !important;
+     }
+     #testimonials .testimonial_see_all_container {
+      flex-direction: column !important;
+     }
+     #testimonials .testimonial_see_all_container .testimonial_title {
+      position: absolute;
+    top: 0;
+    
+     }
+     
+  
  }
 
 
@@ -1167,6 +1204,34 @@ transition: width 0.1s ease;
         #meet_founder .founder_image_container .girl_image_icon {
             left: 1rem !important;
             bottom: 25rem !important;
+        }
+
+        #testimonials {
+         position: relative;
+         flex-direction: column-reverse !important;
+         height: 67.1rem !important;
+         align-items: center !important;
+        }
+        #testimonials .testimonial_image_container {
+         overflow-x: scroll;
+         width: 30rem !important;
+         height: fit-content !important;
+         align-items: end !important;
+         cursor: grab;
+         scroll-behavior: smooth;
+         scrollbar-width: none;
+        }
+        #testimonials .testimonial_image_container .card .feedback {
+         width: 22.8rem !important;
+        }
+        #testimonials .testimonial_image_container .card .testimonial_profile {
+         width: 22.4rem !important;
+        }
+        #testimonials .testimonial_see_all_container .testimonial_title {
+         text-align: center;
+        }
+        #testimonials .testimonial_see_all_container .see_all_container .see_all_text {
+         width: max-content;
         }
         
    
