@@ -1021,6 +1021,39 @@ color: #404040;
    width: 3.2rem !important;
    height: 3.2rem !important;
  }
+ #blogs .blog_trustco_container .blog_title {
+   font-size: 3rem !important;
+   position: absolute;
+   top: 0;
+ }
+ #blogs .blog_card_container .blog_card .blog_image {
+   width: 28.8rem !important;
+ }
+ #blogs .blog_card_container .blog_card .card_information .question_and_answer_info .card_question {
+   font-size: 2rem !important;
+ }
+ #blogs .blog_card_container .blog_card .card_information .date_info .date{
+   font-size: 1.2rem !important;
+ }
+ #blogs .blog_card_container .blog_card .card_information .date_info .by_name {
+   font-size: 1.2rem !important;
+ }
+ #blogs{
+   flex-direction: column-reverse !important;
+    align-items: center !important;
+    position: relative !important;
+ }
+ #blogs .blog_trustco_container {
+   justify-content: center !important;
+ }
+ #blogs .blog_card_container {
+   width: 30rem !important;
+   overflow-y: hidden;
+   overflow-x: scroll;
+   scroll-behavior: smooth;
+   scrollbar-width: none;
+   cursor:all-scroll;
+ }
 }
 
 
@@ -1343,7 +1376,7 @@ color: #404040;
          width: 30rem !important;
          height: fit-content !important;
          align-items: end !important;
-         cursor: grab;
+         cursor: all-scroll;
          scroll-behavior: smooth;
          scrollbar-width: none;
         }
@@ -1358,6 +1391,10 @@ color: #404040;
         }
         #testimonials .testimonial_see_all_container .see_all_container .see_all_text {
          width: max-content;
+        }
+        #blogs{
+         padding :5rem 2rem 5rem 2rem !important;
+         gap: 3.2rem !important;
         }
         
    
