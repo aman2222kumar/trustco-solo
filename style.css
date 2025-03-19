@@ -625,6 +625,140 @@ justify-content: space-between;
 
  }
 
+ #testimonials{
+    height: 67.1rem;
+    padding: 10rem 15rem 10rem 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+    background-color: var(--cilety-color);
+ }
+
+ #testimonials .testimonial_see_all_container{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ #testimonials .testimonial_see_all_container .testimonial_title{
+font-weight: 700;
+font-size: 6rem;
+line-height: 7.2rem;
+letter-spacing: -2%;
+color: var(--dark-text-cilety-color);
+ }
+
+ #testimonials .testimonial_see_all_container .see_all_container{
+    border-radius: 5.5rem;
+    display: flex;
+    gap: 1.6rem;
+ align-items: center;
+ }
+ #testimonials .testimonial_see_all_container .see_all_container .see_all_text{
+font-weight: 700;
+font-size: 1.8rem;
+line-height: 2.8rem;
+letter-spacing: 0%;
+ }
+ #testimonials .testimonial_see_all_container .see_all_container .black_arrow{
+    width: 2.4rem;
+    height: 2.4rem;
+ }
+
+ #testimonials .testimonial_image_container{
+    display: flex;
+    gap:3.2rem;
+ }
+ #testimonials .testimonial_image_container .card{
+   border-radius: 1.6rem;
+   padding: 2.4rem;
+   display: flex;
+   flex-direction: column;
+   gap: 2.4rem;
+   background-color: var(--white-color);
+   box-shadow: 0px 1px 2px 0px #00000014;
+
+ }
+ #testimonials .testimonial_image_container .card .quote_66{
+   opacity: 90%;
+   
+font-weight: 700;
+font-size: 9rem;
+line-height: 7rem;
+letter-spacing: -0.167rem;
+color: #F0B73F;
+
+ }
+ #testimonials .testimonial_image_container .card .feedback{
+   
+font-weight: 400;
+font-size: 2.4rem;
+line-height: 3.2rem;
+letter-spacing: 0%;
+color: var(--dark-text-cilety-color);
+
+ }
+ #testimonials .testimonial_image_container .card .testimonial_profile{
+   display: flex;
+   gap: 1.2rem;
+ }
+ #testimonials .testimonial_image_container .card .testimonial_profile .avatar{
+   width: 4.8rem;
+   height: 4.8rem;
+   align-self: center;
+
+ }
+ #testimonials .testimonial_image_container .card .testimonial_profile .profile_information{
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   align-items: baseline;
+
+ }
+ #testimonials .testimonial_image_container .card .testimonial_profile .profile_information .profile_name{
+ 
+font-weight: 700;
+font-size: 1.6rem;
+line-height: 2.4rem;
+letter-spacing: 0%;
+color: #000000;
+
+ }
+ #testimonials .testimonial_image_container .card .testimonial_profile .profile_information .profession{
+ 
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 2.4rem;
+letter-spacing: 0%;
+color:#404040;
+
+ }
+
+ #testimonials .testimonial_dot_container{
+   display: flex;
+   justify-content: center;
+   gap:1.1rem;
+ }
+ #testimonials .testimonial_dot_container .dot{
+   width: 2rem;
+height: 1.2rem;
+border-radius: 1rem;
+background-color: #D7E0E5;
+transition: width 0.1s ease;
+
+ }
+ #testimonials .testimonial_dot_container .dot:hover{
+   width: 8rem;
+   background-color: var(--dark-blue-color);
+
+ }
+
+
+
+
+
+
 
 
 
