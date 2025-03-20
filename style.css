@@ -1154,6 +1154,239 @@ color: #92A7B0;
 }
 
 
+/* contact page design */
+#help_section{
+   padding: 10rem 12rem 10rem 12rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   background-color: var(--cilety-color);
+}
+
+#help_section .help_container{
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-items: center;
+  width: 70.9rem;
+}
+
+#help_section .help_container .help_title_info{
+   display: flex;
+   flex-direction: column;
+   gap: 1.6rem;
+   align-items: center;
+
+}
+
+#help_section .help_container .help_title_info .help_title{
+
+font-weight: 800;
+font-size: 8rem;
+line-height: 100%;
+letter-spacing: -2%;
+text-align: center;
+color: var(--dark-text-cilety-color);
+
+}
+
+#help_section .help_container .help_title_info .help_subTitle{
+opacity: 70%;
+font-weight: 500;
+font-size: 2rem;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+#help_section .help_container .help_card_container{
+   display: flex;
+   gap: 3.2rem;
+}
+#help_section .help_container .help_card_container .help_card{
+   width: 35.9rem;
+   height: 31.6rem;
+   border-radius: 1.6rem;
+   padding: 2.4rem;
+   display: flex;
+   flex-direction: column;
+   gap: 3.2rem;
+   align-items: baseline;
+   background-color: var(--white-color);
+}
+#help_section .help_container .help_card_container .help_card .help_way{
+   width: 6.4rem;
+   height: 6.4rem;
+
+}
+#help_section .help_container .help_card_container .help_card .help_card_info{
+   display: flex;
+   flex-direction: column;
+   align-items:baseline;
+   justify-content: space-between;
+   height: 17.2rem;
+}
+#help_section .help_container .help_card_container .help_card .help_card_info .help_card_description{
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+}
+#help_section .help_container .help_card_container .help_card .help_card_info .help_card_description .help_ways_title{
+   
+font-weight: 700;
+font-size: 2.4rem;
+line-height: 3.2rem;
+letter-spacing: 0%;
+color: var(--dark-text-cilety-color);
+
+}
+#help_section .help_container .help_card_container .help_card .help_card_info .help_card_description .help_ways_description{
+   
+font-weight: 400;
+font-size: 1.8rem;
+letter-spacing: 0%;
+color: #404040;
+
+}
+
+#help_section .help_container .help_card_container .help_card .help_card_info .action_container{
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+
+}
+#help_section .help_container .help_card_container .help_card .help_card_info .action_container p{
+   
+font-weight: 600;
+font-size: 1.8rem;
+line-height: 100%;
+letter-spacing: 0%;
+color: var(--dark-blue-color);
+
+}
+#help_section .help_container .help_card_container .help_card .help_card_info .action_container img{
+   width: 2.4rem;
+   height: 2.4rem;
+}
+
+/* form section of contact design */
+#form_section{
+   padding: 10rem 12rem 10rem 12rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   background-color: var(--white-color);
+}
+#form_section .form_container{
+   display: flex;
+   flex-direction: column;
+   gap: 3.2rem;
+   align-items: center;
+
+}
+#form_section .form_container .form_title_container{
+   width: 70.9rem;
+   display: flex;
+   flex-direction: column;
+   gap: 1.6rem;
+   align-items: center;
+}
+#form_section .form_container .form_title_container .form_title{
+   
+font-weight: 800;
+font-size: 6.4rem;
+line-height: 100%;
+letter-spacing: -2%;
+color: var(--dark-text-cilety-color);
+
+}
+#form_section .form_container .form_title_container .form_sub_title{
+opacity: 70%;
+font-weight: 500;
+font-size: 2rem;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+#form_section .form_container .form_data_container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 3.2rem;
+
+}
+#form_section .form_container .form_data_container .field_holder{
+   display: flex;
+   width: 50rem;
+   height: 6rem;
+   display: flex;
+   gap: 1.5rem;
+   padding: 1.2rem;
+   border: 0.1rem solid #91A7B0;
+}
+#form_section .form_container .form_data_container .field_holder img{
+   width: 3.6rem;
+   height: 3.6rem;
+}
+#form_section .form_container .form_data_container .field_holder input{
+   outline: none;
+   border: none;
+   width: inherit;
+   padding: 1.2rem;
+   color: var(--cilety-color);
+}
+#form_section .form_container .form_data_container .message_field{
+   height: 15rem;
+   border: 0.1rem solid #91A7B0;
+   padding: 1.2rem;
+   border-radius: 1rem;
+   width: 100%;
+   grid-column: span 2; /* Make the textarea span across both columns */
+   
+
+   
+}
+
+#form_section .form_container .form_data_container .submit_info_container{
+   display: flex;
+   justify-content: space-between;
+   grid-column: span 2;
+}
+#form_section .form_container .form_data_container .submit_info_container .checkbox_container{
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+   padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+   width: 100%;
+}
+#form_section .form_container .form_data_container .submit_info_container .checkbox_container p{
+opacity: 70%;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: var(--dark-text-cilety-color);
+
+}
+#form_section .form_container .form_data_container .submit_info_container .checkbox_container p span{
+   font-weight: 800;
+   font-size: 1.6rem;
+   line-height: 100%;
+   letter-spacing: 0%;
+   color: var(--dark-text-cilety-color);
+   
+}
+#form_section .form_container .form_data_container .submit_info_container button{
+   padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   justify-content: center;
+   border-radius: 4.2rem;
+}
 
 
 
