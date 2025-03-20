@@ -1596,6 +1596,15 @@ color: var(--dark-text-cilety-color);
 #footer_menu_links{
    flex-direction: column;
 }
+#help_section .help_container .help_card_container {
+   flex-direction: column;
+   gap: 1.6rem !important;
+}
+#form_section .form_container .form_data_container {
+   display: flex !important;
+    flex-direction: column !important;
+    gap: 1.6rem !important;
+}
 }
 
 
@@ -1782,6 +1791,27 @@ color: var(--dark-text-cilety-color);
      }
      #cta_banner .cta_image_container {
       width: 30rem !important;
+     }
+     #form_section .form_container .form_title_container .form_sub_title {
+      font-size: 1.6rem !important;
+     }
+     #form_section .form_container .form_title_container .form_title {
+      font-size: 3.2rem !important;
+     }
+     #help_section .help_container .help_title_info .help_title {
+      font-size: 3.2rem !important;
+     }
+     #help_section .help_container .help_title_info .help_subTitle {
+      font-size: 1.2rem !important;
+     }
+     #form_section .form_container .form_title_container {
+      width: fit-content !important;
+     }
+     #form_section .form_container .form_data_container .field_holder {
+      width: 32rem !important;
+     }
+     #help_section .help_container .help_card_container .help_card {
+      width: 25rem !important;
      }
   
  }
