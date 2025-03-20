@@ -1192,6 +1192,43 @@ z-index: 5;
    scrollbar-width: none;
    cursor:all-scroll;
  }
+ #cta_banner .cta_image_container {
+   width: 70rem !important;
+ }
+ #cta_banner .cta_image_container .crown_icon {
+   bottom: -30rem !important;
+        left: -4rem !important;
+ }
+ #cta_banner .cta_image_container .banner_girl {
+   width: 60rem !important;
+   bottom: 0 !important;
+ }
+ #cta_banner .cta_image_container .star_icon {
+   
+    left: 38rem !important;
+ }
+ #cta_banner .cta_image_container .search_icon {
+   bottom: -25rem !important;
+    right: 3rem !important;
+ }
+ #cta_banner{
+   flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    height: 61.7rem !important;
+}
+#cta_banner .cta_text_banner_container {
+   
+   flex-direction: column !important;
+   align-items: center !important;
+   gap: 2.4rem !important;
+   padding: 0rem 0rem 0rem 3rem !important;
+}
+#cta_banner .cta_text_banner_container .customer_slogan {
+   
+   font-size: 2.4rem !important;
+   line-height: 3.8rem !important;
+}
 }
 
 
@@ -1340,7 +1377,45 @@ z-index: 5;
     top: 0;
     
      }
-     
+
+     #cta_banner .cta_text_banner_container .cta_free_trial_container {
+      align-items: center !important;
+     }
+     #cta_banner .cta_image_container .crown_icon {
+      padding: 0.8rem !important;
+    gap: 0.8rem !important;
+    left: -9rem !important;
+    bottom: -32rem !important;
+     }
+     #cta_banner .cta_image_container .crown_icon .cta_crown {
+      width: 5.6rem !important;
+      height: 5.6rem !important;
+     }
+     #cta_banner .cta_image_container .banner_girl {
+      width: 33.1rem !important;
+    right: 0 !important;
+     }
+     #cta_banner .cta_image_container .star_icon {
+      left: 15rem !important;
+    gap: 0.8rem !important;
+    bottom: -30rem !important;
+     }
+     #cta_banner .cta_image_container .star_icon .star_img {
+      width: 5.6rem !important;
+      height: 5.6rem !important;
+
+     }
+     #cta_banner .cta_image_container .search_icon {
+      right: 0rem !important;
+    bottom: -35rem !important;
+     }
+     #cta_banner .cta_image_container .search_img {
+      width: 5.6rem !important;
+      height: 5.6rem !important;
+     }
+     #cta_banner .cta_image_container {
+      width: 30rem !important;
+     }
   
  }
 
@@ -1533,6 +1608,17 @@ z-index: 5;
         #blogs{
          padding :5rem 2rem 5rem 2rem !important;
          gap: 3.2rem !important;
+        }
+        #cta_banner .cta_image_container .crown_icon {
+         left: -3.6rem !important;
+    z-index: 18 !important;
+    padding: 0rem !important;
+        }
+        #cta_banner .cta_image_container .banner_girl {
+         width: 30.1rem !important;
+        }
+        #cta_banner .cta_image_container .crown_icon {
+         left: -2rem !important;
         }
         
    
